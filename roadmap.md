@@ -1,0 +1,12 @@
+# Roadmap
+- [x] 1. Login/registration: existing accounts work with same email+password
+- [x] 2. GPS: real coordinates + reverse geocoded suburb (OSM Nominatim), clear error states, manual fallback
+- [x] 3. Nearby shops: real OSM (Overpass) stores near user
+- [x] 4. Prices: OSM shop menus stay labelled as estimates; supermarket shelf prices are now real via Loyalty Hub (item 9)
+- [x] 5. Cart/budget totals use displayed prices
+- [x] 6. Finish list + recipe features: remove items (✕), search/add products, AI recipe panel wired into shopping list
+- [ ] 7. Make maximum distance apply to nearby shops, menus, map, and product search.
+- [ ] 8. Add real food photos to grocery ingredients, snacks, takeaways, shopping lists, and recipes.
+- [x] 9. Loyalty Hub SA Grocery Price API: live supermarket prices in the add-item search, cached in the database, freshness always shown
+- [x] 10. Authentication reliability: normalize email, preserve sign-in sessions, make recovery handle Google-only accounts, and clear state on logout.
+- [x] 11. Investigate Google/password login mismatch, verify duplicate-account and logout behavior, and clarify authentication errors without changing credentials.
